@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100;200;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.con{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(#393646,#4F4557,#6D5D6E,#F4EEE0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    width: 320px;
+    height: 650px;
+    border-radius: 20px;
+    background: linear-gradient(#B983FF,#94B3FD);
+}
+.logo{
+    width: 100%;
+    height: 210px;
+    background-image: url(IMG/T-removebg-preview.png);
+    background-size: cover;
+    margin-top: 100px;
+    /* border: 2px solid; */
+}
+.but{
+    width: 290px;
+    height: 200px;
+    padding-top: 50px;
+    /* border: 2px solid; */
+    margin: auto;
+}
+.but button{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid white;
+    font-family: 'Comme', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.but .active{
+    background: white;
+    color: #ac77f2;
+    font-weight: 600;
+}
+.baner{
+    width: 290px;
+    height: 100px;
+    /* border: 2px solid; */
+    margin: 80px 15px 15px 15px;
+    font-family: 'Comme', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+.baner h1{
+    font-family: 'Comme', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.baner span{
+    font-family: 'Comme', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+.login-form{
+    width: 290px;
+    height:  400px;
+    /* border: 2px solid; */
+    margin-top: 30px;
+}
+.login-form1{
+    width: 290px;
+    height:  400px;
+    /* border: 2px solid; */
+    margin: auto;
+}
+.box{
+    width: 100%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.283);
+    margin-top: 10px;
+    color: white;
+}
+.box input{
+    width: 91%;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: 'Comme', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-left: 4%;
+}
+input::-webkit-input-placeholder{
+    color: white;
+    font-size: 14px;
+}
+.box h6 a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-top: 7px;
+    font-family: 'Comme', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+.sub{
+    width: 100%;
+    height: 50px;
+    background: white;
+    float: left;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.sub input{
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Comme', sans-serif;
+    font-weight: 500;
+    color: #B983FF;
+}
+.out{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid; */
+    float: left;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.out p{
+    font-size: 12px;
+    font-family: 'Comme', sans-serif;
+    font-weight: 100;
+    margin-left: 5px;
+}
+.dot{
+    width: 95px;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+.another{
+    width: 120px;
+    height: 50px;
+    background: white;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.another img{
+    width: 30px;
+}
+.another1{
+    width: 120px;
+    height: 50px;
+    background: white;
+    float: right ;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.another1 img{
+    width: 30px;
+}
+.pir{
+    color: white;
+    font-family: 'Comme', sans-serif;
+    font-size: 12px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 75px;
+}
+.pir a{
+    text-decoration: none;
+    font-family: 'Comme', sans-serif;
+    font-weight: 400;
+}
+.pir1{
+    color: white;
+    font-family: 'Comme', sans-serif;
+    font-size: 12px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+.pir1 a{
+    text-decoration: none;
+    font-family: 'Comme', sans-serif;
+    font-weight: 400;
+}
